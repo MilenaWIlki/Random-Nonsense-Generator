@@ -1,0 +1,11 @@
+import pandas as pd
+
+# Create a DataFrame with ridiculous statistics
+data = pd.DataFrame({
+    'Unicorn Sightings': [42, 67, 89, 104, 126],
+    'Banana Consumption (kg)': [3.5, 5.2, 7.8, 9.5, 11.2],
+    'Coffee Intake (liters)': [20, 25, 32, 42, 50]
+})
+
+# Display the hilarious statistics
+print(data)
